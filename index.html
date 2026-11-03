@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katharine Ringo | OpenSSF Security Portfolio</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0d1117;
+      color: #c9d1d9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header {
+      width: 100%;
+      max-width: 800px;
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+    h1 {
+      color: #58a6ff;
+      margin-bottom: 0.5rem;
+    }
+    .badge-container {
+      margin: 1.5rem 0;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 1.5rem;
+      max-width: 800px;
+      margin: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Katharine Ringo</h1>
+    <p>Software Security & Supply Chain Hardening Showcase</p>
+    <div class="badge-container">
+      <a href="https://securityscorecards.dev/viewer/?repo=github.com/KatharineRingo/openssf-scorecard-project">
+        <img src="https://api.securityscorecards.dev/projects/github.com/KatharineRingo/openssf-scorecard-project/badge" alt="OpenSSF Scorecard">
+      </a>
+      <a id="bestpractices-link" href="https://www.bestpractices.dev">
+        <img id="bestpractices-badge" src="https://www.bestpractices.dev/assets/svg/badge_passing-9860b212f451f2868ff1c05d762e153b6fa72e5050f28325a7457d59b20e0ffb.svg" alt="OpenSSF Best Practices">
+      </a>
+    </div>
+  </header>
+  <main class="card">
+    <h2>Project Overview</h2>
+    <p>This project demonstrates supply-chain security best practices using OpenSSF Scorecard and OpenSSF Best Practices criteria.</p>
+    <ul>
+      <li>Automated dependency vulnerability tracking with Dependabot</li>
+      <li>Scorecard automated analysis via GitHub Actions</li>
+      <li>Minimal token permission policies across CI workflows</li>
+      <li>Established vulnerability reporting policy and open-source licensing</li>
+    </ul>
+  </main>
+</body>
+</html>
